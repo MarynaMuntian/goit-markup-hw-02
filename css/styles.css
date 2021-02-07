@@ -23,6 +23,7 @@ ul {
 }
 
 /* header */
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -70,6 +71,7 @@ header > a {
 }
 
 /* Стили для героя */
+
 .hero {
   background-color: var(--hero-bgd);
 }
@@ -94,6 +96,7 @@ header > a {
 }
 
 /* Стили для блока 2 */
+
 .benefits-title {
   font-weight: 700;
   font-size: 14px;
@@ -121,6 +124,7 @@ header > a {
 }
 
 /* Стили для блока 3 */
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -149,6 +153,7 @@ header > a {
 }
 
 /* Стили для футера */
+
 .footer {
   background-color: var(--hero-bgd);
 }
@@ -176,4 +181,40 @@ footer > a {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* Стили для portfolio */
+
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+  background-color: var(--secondary-bgd);
+  cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus,
+.portfolio-btn:active {
+  color: var(--title-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-color);
+}
+
+.portfolio-item-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--link-color);
 }
