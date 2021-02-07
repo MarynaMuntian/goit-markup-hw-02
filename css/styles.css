@@ -42,7 +42,6 @@ header > a {
 }
 
 .nav-menu-link {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -57,7 +56,6 @@ header > a {
 }
 
 .nav-menu-link-contacts {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -77,7 +75,6 @@ header > a {
 }
 
 .hero-title {
-  font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -88,7 +85,6 @@ header > a {
 }
 
 .hero-btn {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -99,7 +95,6 @@ header > a {
 
 /* Стили для блока 2 */
 .benefits-title {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -109,7 +104,6 @@ header > a {
 }
 
 .benefits-content {
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -118,7 +112,6 @@ header > a {
 }
 
 .aside-title {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -129,7 +122,6 @@ header > a {
 
 /* Стили для блока 3 */
 .team-title {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -139,7 +131,6 @@ header > a {
 }
 
 .team-item {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -149,11 +140,40 @@ header > a {
 }
 
 .team-item-descr {
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--link-color);
+}
+
+/* Стили для футера */
+.footer {
+  background-color: var(--hero-bgd);
+}
+footer > a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+.footer-address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+.footer-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
