@@ -3,11 +3,9 @@
   --secondary-color: #212121;
   --accent-color: #2196f3;
   --link-color: #757575;
-  --title-color: #ffffff;
-
-  --primary-bgd: #ffffff;
-  --secondary-bgd: #f5f4fa;
-  --hero-bgd: #2f303a;
+  --white-color: #ffffff;
+  --secondary-white-color: #f5f4fa;
+  --bgd-color: #2f303a;
 }
 
 body {
@@ -56,6 +54,10 @@ header > a {
   color: var(--accent-color);
 }
 
+.nav-menu-link.current {
+  color: var(--accent-color);
+}
+
 .nav-menu-link-contacts {
   font-weight: 500;
   font-size: 14px;
@@ -73,7 +75,7 @@ header > a {
 /* Стили для героя */
 
 .hero {
-  background-color: var(--hero-bgd);
+  background-color: var(--bgd-color);
 }
 
 .hero-title {
@@ -83,7 +85,7 @@ header > a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--title-color);
+  color: var(--white-color);
 }
 
 .hero-btn {
@@ -92,7 +94,7 @@ header > a {
   line-height: 1.9;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--title-color);
+  color: var(--white-color);
 }
 
 /* Стили для блока 2 */
@@ -125,6 +127,10 @@ header > a {
 
 /* Стили для блока 3 */
 
+.team {
+  background-color: var(--secondary-white-color);
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -155,7 +161,7 @@ header > a {
 /* Стили для футера */
 
 .footer {
-  background-color: var(--hero-bgd);
+  background-color: var(--bgd-color);
 }
 footer > a {
   font-family: 'Raleway', sans-serif;
@@ -163,7 +169,7 @@ footer > a {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: var(--title-color);
+  color: var(--white-color);
 }
 
 .footer-address {
@@ -172,7 +178,7 @@ footer > a {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var(--title-color);
+  color: var(--white-color);
 }
 
 .footer-link {
@@ -186,20 +192,21 @@ footer > a {
 /* Стили для portfolio */
 
 .portfolio-btn {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
-  background-color: var(--secondary-bgd);
+  background-color: var(--secondary-white-color);
   cursor: pointer;
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus,
 .portfolio-btn:active {
-  color: var(--title-color);
+  color: var(--white-color);
   background-color: var(--accent-color);
 }
 
